@@ -1,3 +1,4 @@
+import statistics
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
@@ -9,4 +10,9 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+print(numbers, "\n")
+
+median_list = statistics.median(numbers)
+print(f"The median of this list is {median_list}")
+    
+     
